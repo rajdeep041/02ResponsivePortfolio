@@ -6,6 +6,9 @@ Deployed Site Url : https://rajdeep041.github.io/02ResponsivePortfolio/
 # Description:
 This is to design a portfolio site using Bootstrap framework.
 
+# Sub-goals:
+This is the first version on my portfolio site. There is a lot that could be modified to make it neater. This site will be an ongoing progress. 
+
 # Screens Implemented
 <div align="center">
 <h2>Responsive Pages</h2>
@@ -31,3 +34,8 @@ URL: https://rajdeep041.github.io/02ResponsivePortfolio/about.html
 URL: https://rajdeep041.github.io/02ResponsivePortfolio/contact.html
 <img src="https://github.com/rajdeep041/02ResponsivePortfolio/blob/master/Assets/Images/Contact%20Me%20Page.png" alt="Contact"/>
 </div> 
+
+# Future Goals
+* Disabled page will have my Resume added to it
+* There will be enhancements to the colors, grids, and sections to make it more user friendly
+* More features will be added
