@@ -20,13 +20,14 @@ URL: https://rajdeep041.github.io/02ResponsivePortfolio/
 
 <h2>Home Page</h2>
 URL: https://rajdeep041.github.io/02ResponsivePortfolio/portfolio.html
-<img arc="https://github.com/rajdeep041/02ResponsivePortfolio/blob/master/Assets/Images/Portfolio%20Page.png" alt="Home"/>
+
+<img src="https://github.com/rajdeep041/02ResponsivePortfolio/blob/master/Assets/Images/Portfolio%20Page.png" alt="Home"/>
 
 <h2>About Page</h2>
 URL: https://rajdeep041.github.io/02ResponsivePortfolio/about.html
-<img arc="https://github.com/rajdeep041/02ResponsivePortfolio/blob/master/Assets/Images/About:Bio%20Page.png" alt="About"/>
+<img src="https://github.com/rajdeep041/02ResponsivePortfolio/blob/master/Assets/Images/About:Bio%20Page.png" alt="About"/>
 
 <h2>Contact Page</h2>
 URL: https://rajdeep041.github.io/02ResponsivePortfolio/contact.html
-<img arc="https://github.com/rajdeep041/02ResponsivePortfolio/blob/master/Assets/Images/Contact%20Me%20Page.png" alt="Contact"/>
+<img src="https://github.com/rajdeep041/02ResponsivePortfolio/blob/master/Assets/Images/Contact%20Me%20Page.png" alt="Contact"/>
 </div> 
