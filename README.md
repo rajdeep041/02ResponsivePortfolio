@@ -10,7 +10,7 @@ This is to design a portfolio site using Bootstrap framework.
 <div align="center">
 <h2>Responsive Pages</h2>
 <h3>Contact Responsive Page</h3>
-<img src="https://github.com/rajdeep041/02ResponsivePortfolio/blob/master/Assets/Images/Contact%20Me%20-%20Responsive.png"  style="border: 1px solid black" alt="Contact Responsive"/>
+<img src="https://github.com/rajdeep041/02ResponsivePortfolio/blob/master/Assets/Images/Contact%20Me%20-%20Responsive.png" alt="Contact Responsive"/>
 <h3>About/Bio Responsive Page</h3>
 <img src="https://github.com/rajdeep041/02ResponsivePortfolio/blob/master/Assets/Images/Bio%20Responsive.png" alt="Bio Responsive"/>
 
