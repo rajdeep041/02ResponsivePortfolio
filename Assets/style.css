@@ -1,17 +1,23 @@
 .container {
-margin-top: 10%;
-font-family: cursive;
+  margin-top: 10%;
+  font-family: cursive;
 }
 
-body { 
-    padding-top: 65px; 
+body {
+  padding-top: 65px;
 }
 
 .carousel-inner {
-    height: 450px;
-    width: 800px;
+  height: 450px;
+  width: 800px;
 }
 
 .col-md-3 {
-    background-color: thistle;
+  background-color: thistle;
+}
+
+.card {
+  margin: 5%;
+  background-color: thistle;
+  font-family: "Roboto";
 }

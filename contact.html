@@ -1,151 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="Assets/style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/style.css" />
 
 </head>
+
 <body>
-     <!---Start of Navbar-->
-  <nav class="navbar navbar-expand-md fixed-top" style="background-color: white;">
-    <a class="navbar-brand" href="index.html">
-        <img src="Assets/Images/Name-Logo sm.png" height="60px" alt="Name Logo"/>
-    </a>
-    <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon" style="color: teal;"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="nav justify-content-end ml-auto" >
-            <li class="nav-item">
-              <a class="nav-link active" href="portfolio.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-    </div>
-  </nav>
-  <!---End of Navbar-->
+    <!---Start of Navbar-->
+    <nav class="navbar navbar-expand-md fixed-top" style="background-color: white;">
+        <a class="navbar-brand" href="index.html">
+            <img src="Assets/Images/Name-Logo sm.png" height="60px" alt="Name Logo" />
+        </a>
+        <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: teal;"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav justify-content-end ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="portfolio.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html" tabindex="-1" aria-disabled="false">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!---End of Navbar-->
 
     <div class="container">
 
 
-<!---Start of Form-->
-<!--Section: Contact v.2-->
-<section class="mb-4">
+        <!---Start of Form-->
+        <!--Section: Contact v.2-->
+        <section class="mb-4">
 
-    <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Get in touch</h2>
-    <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5"></p>
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Get in touch</h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5"></p>
 
-    <div class="row">
+            <div class="row">
 
-        <!--Grid column-->
-        <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-                <!--Grid row-->
-                <div class="row">
+                        <!--Grid row-->
+                        <div class="row">
 
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Your name</label>
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Your name</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Your email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
                         </div>
-                    </div>
-                    <!--Grid column-->
+                        <!--Grid row-->
 
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Your email</label>
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Subject</label>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <!--Grid column-->
+                        <!--Grid row-->
 
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                    <div class="status"></div>
                 </div>
-                <!--Grid row-->
+                <!--Grid column-->
 
-                <!--Grid row-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Subject</label>
-                        </div>
-                    </div>
+                <!--Grid column-->
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>Contact me at</p>
+                        </li>
+
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>+1 (415)902-5535</p>
+                        </li>
+
+                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                            <p>rajdeepmsu@gmail.com</p>
+                        </li>
+
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>Location: San Francisco, CA 9</p>
+                        </li>
+
+                    </ul>
                 </div>
-                <!--Grid row-->
+                <!--Grid column-->
 
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message</label>
-                        </div>
-
-                    </div>
-                </div>
-                <!--Grid row-->
-
-            </form>
-
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
             </div>
-            <div class="status"></div>
-        </div>
-        <!--Grid column-->
 
-        <!--Grid column-->
-        <div class="col-md-3 text-center">
-            <ul class="list-unstyled mb-0">
-                <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                    <p>Contact me at</p>
-                </li>
-
-                <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>+1 (415)902-5535</p>
-                </li>
-
-                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                    <p>rajdeepmsu@gmail.com</p>
-                </li>
-
-                <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                    <p>Location: San Francisco, CA 9</p>
-                </li>
-
-            </ul>
-        </div>
-        <!--Grid column-->
-
-    </div>
-
-</section>
-<!--Section: Contact v.2-->
+        </section>
+        <!--Section: Contact v.2-->
 
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
